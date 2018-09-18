@@ -8,7 +8,7 @@ TF-IDF （主题提取，文本分类）
 LDA （主题提取）   
 ...  
 
-1. 基于上下文计算词的关联性：words_relevance_based_on_context.py   
+1. 基于上下文计算词的关联性：words_relevance_based_on_context   
 如切词会将 “补充”  “水分”  切分开，但他们的关联度高，所以可以关联到一起变成： “补充水分” 
 
 2. 基于词性粘滞方向的有效词组识别：generate_effect_new_word  
