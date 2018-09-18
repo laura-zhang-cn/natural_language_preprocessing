@@ -129,8 +129,8 @@ def unique_lcssque(s1,s2,keep_continue=True,mode='any'):
 
 
 if __name__=='__main__':
-    s1='zahbzadfebg'
-    s2='bzhadebg'
+    s1='abbca'
+    s2='baca'
     que,s1_loc,s2_loc=unique_lcssque(s1,s2,keep_continue=True,mode='any')
     print(que,'\n',s1_loc,'\n',s2_loc)
 
