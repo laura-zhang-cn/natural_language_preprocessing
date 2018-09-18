@@ -89,8 +89,8 @@ def keep_continues_str(que,loc1,loc2,mode='any'):
     return ''.join(rst_que),rst_loc1,rst_loc2
 
 def keep_longest_continues(loc1,loc2):
-    diff_loc1=npy.diff(npy.array(loc1)).sum()
-    diff_loc2=npy.diff(npy.array(loc2)).sum()
+    diff_loc1=npy.diff(npy.array(loc1)).mean()
+    diff_loc2=npy.diff(npy.array(loc2)).mean()
     if diff_loc1<=diff_loc2:
         return (1,loc1)
     else:
@@ -115,9 +115,7 @@ def unique_lcssque(s1,s2,keep_continue=True,mode='any'):
         s1_loc=s1_loc1
         s2_loc=s2_loc1
     else:
-        k1,s_loc1=keep_longest_continues(loc1=s1_loc1,loc2=s2_loc1)
-        k2,s_loc2=keep_longest_continues(loc1=s1_loc2,loc2=s2_loc2)
-        k,s_loc=keep_longest_continues(loc1=s_loc1,loc2=s_loc2)
+        k,s_loc=keep_longest_continues(loc1=[s1_loc1,s2_loc1],loc2=[s1_loc2,s2_loc2])
         if k==1:
             que=que1
             s1_loc=s1_loc1
