@@ -8,3 +8,5 @@ jaro-winkler-improving.py
 mode='popular' 流行方法  
 mode='improve1' 改进方法1  
 mode='improve3' 改进方法3  
+
+![总说明](https://github.com/laura-zhang-cn/natural_language_preprocessing/blob/master/effect-images/jaro-winkler-%E4%BB%8B%E7%BB%8D%E5%9B%BE.png)
