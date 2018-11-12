@@ -24,8 +24,8 @@ LDA （主题提取）
 5.近义词识别算法：   
 5.1) 融合(Word2Vec、TF-IDF、jaro、context-relevance、corpus-unrichness) ，计算词的语义相似性  
 整体准确率在 **88%** 左右，对比了目前流行的synonyms，效果要好很多    
-![近义词识别效果]()  
+![近义词识别效果](https://github.com/laura-zhang-cn/natural_language_preprocessing/blob/master/effect-images/%E8%BF%91%E4%B9%89%E8%AF%8D%E8%AF%86%E5%88%AB%E6%95%88%E6%9E%9C.png)  
 5.2) 对于语义相似的词，使用密度收敛可达的聚类算法(anti-DBSCAN)   
-![密度可达的聚类算法效果]()  
+![密度可达的聚类算法效果](https://github.com/laura-zhang-cn/natural_language_preprocessing/blob/master/effect-images/%E5%AF%86%E5%BA%A6%E6%94%B6%E6%95%9B%E5%8F%AF%E8%BE%BE%E7%9A%84%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95.png)  
 
 
