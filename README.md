@@ -28,7 +28,7 @@ LDA （主题提取）
 5.2)  对于语义相似的词，使用密度收敛可达的聚类算法(anti-DBSCAN)   
 ![密度可达的聚类算法效果](https://github.com/laura-zhang-cn/natural_language_preprocessing/blob/master/effect-images/%E5%AF%86%E5%BA%A6%E6%94%B6%E6%95%9B%E5%8F%AF%E8%BE%BE%E7%9A%84%E8%81%9A%E7%B1%BB%E7%AE%97%E6%B3%95.png)  
 5.3)  仍可以继续优化的地方：  
-12%的误差主要来自于以下几类词： 
+12%的误差主要来自于以下几类词：   
 季节、时间 ： 春夏秋冬、早中晚、日夜；  
 大小、高矮、数字性的： 七分、九分、中筒、长筒；  
 颜色： 黑白红灰；   
