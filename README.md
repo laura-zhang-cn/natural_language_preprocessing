@@ -21,7 +21,7 @@ LDA （主题提取）
 4. 最长公共子序列改进：LCSS-unique  
 对于有序队列的比较，一般采用提取最长公共子序列的算法，但原始的基于动态规划的算法 会导致调换两个待比较的字符串的位置后 获得的子序列不同，遂我们做了后续改进，会根据子序列在字符串中的连续程度，选择连续程度更高的子序列。  
 
-5. 近义词识别算法：   
+5. 近义词识别算法 ：synonyms_fuse_model     
 5.1)  融合(Word2Vec、TF-IDF、jaro、context-relevance、corpus-unrichness) ，计算词的语义相似性  
 整体准确率在 **88%** 左右，对比了目前流行的synonyms，效果要好很多    
 ![近义词识别效果](https://github.com/laura-zhang-cn/natural_language_preprocessing/blob/master/effect-images/%E8%BF%91%E4%B9%89%E8%AF%8D%E8%AF%86%E5%88%AB%E6%95%88%E6%9E%9C.png)  
