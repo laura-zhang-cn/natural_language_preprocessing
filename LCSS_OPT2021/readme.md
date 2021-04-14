@@ -8,3 +8,13 @@
 将两个字符的匹配呈现到矩阵中（s1是行坐标，s2是列坐标），  
 每次循环都选择当前坐标块的子区域中包含最多匹配数的子坐标块，  
 直到当前坐标块不再存在子区域  
+
+```flow  
+st=>start: 开始  
+op=>operation: My Operation  
+cond=>condition: Yes or No?  
+e=>end  
+st->op->cond  
+cond(yes)->e  
+cond(no)->op  
+&```
