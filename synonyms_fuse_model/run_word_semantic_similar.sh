@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# run on 10.16.32.40
 # crontab -e
 # 30 17 */15 * * nohup sh /home/yaxuz/word_semantic_similar/run_word_semantic_similar.sh  > /home/yaxuz/logs/word_semantic_similar_log.log 2>&1 &
 #
