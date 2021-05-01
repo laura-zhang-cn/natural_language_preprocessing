@@ -82,3 +82,4 @@ def concat_prop_words(cut_iter,text,text_id):
     rst=[(text_id,text,[x[0] for x in rst if len(x[0])>1 and set(x[1]).intersection(set('anvd'))!=set() and x[1]!='eng'])] # 面向element的flatmap  
     #print(rst)
     return rst
+ 
