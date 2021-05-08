@@ -5,11 +5,11 @@
 **4. 通过Decoder多次predict,循环的更新和调用states,直到生成结尾符或达到输出的最大长度，停止生成序列（句子）。**  
 
 
-# 效果
-max sentence length = 10
-neurons number= 128
-batch size= 64
-epoch = 100
+# 效果  
+max sentence length = 10  
+neurons number= 128  
+batch size= 64  
+epoch = 100  
 
-测试集序列的**完全准确率: 97.3%**
-（测试集序列 和 训练集序列 是独立的）
+测试集序列的**完全准确率: 97.3%**  
+（测试集序列 和 训练集序列 是独立的）  
