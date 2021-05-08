@@ -42,4 +42,8 @@ LDA （主题提取）
 > 方向、方位： 前中后、首尾、上下左右、顶 底；   
 > 部位： 牙齿、牙龈、头发、头皮、插头、插座、镜片、镜框、鞋头、鞋身、杯身、杯底；  
 
+7. **序列到序列的预测算法：seq2seq_Encoder_Decoder**  
+底层网络使用tensorflow的**LSTM** ，架构为**Encoder-Decoder**的transformer  
+算法预测的序列的完全准确率：**97.3%** （参数 neurons=128,batch=64,epoch=100,句子最大长度10）
+
 
